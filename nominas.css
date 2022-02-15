@@ -1,0 +1,47 @@
+
+/* archivo CSS para la appWeb nominas*/
+/* una configuración para cada elemento del HTM (body, section, form y p)*/
+/* utilizar una metodología BEM para los CSS */
+/*https://uigradients.com/#Kyoto   integrar al WA de trabajo*/
+
+
+body{
+    padding:0; 
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #EFEFBB;  /* para navegadores viejos */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome y safari∫ */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: rgb(248, 242, 242);
+    border-radius: 15px;
+}
+
+form{
+    margin-left: .05%;
+    margin-right: .05%;
+    padding: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgb(247, 213, 213);
+    border-radius: 500px;
+}
+
+p {
+    color:maroon;
+    font-size: 1.2em;
+    font-weight: roboto;
+    margin: 0;

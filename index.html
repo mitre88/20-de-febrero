@@ -1,0 +1,114 @@
+
+<!--aplicación para manejo de datos de nómina de la SEV-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Manejador de Nóminas</title>
+    <link rel="stylesheet" href="./nominas.css">  <!--aqui se enlaza el css con el html -->
+
+</head> <!--cabecera-->
+<body> <!--cuerpo-->
+    
+       <!--aquí en el body vamos a insertar nuestro formulario-->
+            <!--br es un salto de línea-->
+            
+            <!--modulo NÓMINAS-->
+            <section>    <!--para iniciar una sección-->
+
+                      <h1 >Manejador de Nóminas.</h1>
+                  </figcaption>
+
+                  <p></p>
+                  <p></p>
+         </figure>
+                                Oficina de Afectación de la Nómina.                         
+     </section> <!--para cerrar la sección-->
+
+     <form action="https://formspree.io/f/xrgjqgye"    method="POST">  <!--atributo action para interarctuar con JS para enviar información-->
+        <!--aqui va el URL de la base de datos-->      
+            
+        <label for ="usuario">
+            <span> Ingresa tu nombre de usuario </span>
+            <input type="text" name="usuario" id="usuario" autocomplete="name" required>
+        </label>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+        <label for="calendario " >
+            <span> Fecha de elaboración del reporte  </span>
+            <input type="datetime-local" id="calendario" name="calendario" required>
+        </label>
+          <br></br>
+        <p>  ---> Reporte Mensual de Nóminas Emitidas </p>
+        <label for="numeroNominas"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Número de nóminas :</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="numeroNominas" name="numeroNominas" placeholder="número nóminas" required>
+        </label>
+
+        <label for="ingresosNominas"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de ingresos de las Nóminas </span>  <!--para insertar una descripción del input-->
+                <input type="number" id="ingresosNominas" name="ingresosNominas" placeholder=" ingresos Nominas" required>
+        </label>
+
+        <label for="egresosNominas"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de egresos de las nóminas</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="egresosNominas" name="egresosNominas" placeholder="egresos Nominas" required>
+        </label>
+
+        <br></br>
+
+      <!--modulo PENSIONES-->
+      <p> --->  Reporte Mensual de Pensiones Alimenticias Emitidas </p>
+         <label for="numeroPensiones"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Número de pensiones :</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="numeroPensiones" name="numeroPensiones" placeholder="Numero Pensiones" required>
+    </label>
+    
+        <label for="ingresosPensiones"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de ingresos de las pensiones </span>  <!--para insertar una descripción del input-->
+                <input type="number" id="ingresosPensiones" name ="ingresosPensiones"placeholder="ingresos Pensiones" required>
+        </label>
+    
+        <label for="egresosPensiones"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de egresos de pensiones</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="egresosPensiones" name="egresosPensiones" placeholder="egresos Pensión" required>
+        </label>
+
+        <br></br>
+
+      <!--modulo JUICIOS-->
+      <p> --->  Reporte Mensual de Juicios Mercantiles </p>
+        <label for="numeroJuicios"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Número de juicios emitidos :</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="numeroJuicios" name="numeroJuicios" placeholder="numero Juicios" required>
+        </label>
+    
+        <label for="ingresosJuicios"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de ingresos de juicios </span>  <!--para insertar una descripción del input-->
+                <input type="number" id="ingresosJuicios" name="ingresosJuicios" placeholder="ingreso Juicios" required>
+        </label>
+    
+        <label for="egresosJuicios"> <!--el Id debe ser el mismo nombre del FOR-->
+                <span>Total de egresos de los juicios</span>  <!--para insertar una descripción del input-->
+                <input type="number" id="egresosJuicios" name ="egresosJuicios" placeholder="egreso Juicios" required>
+        </label>
+
+        <br></br>
+    <button type="submit" > ------------------>Enviar datos para el REPORTE<------------------  </button>
+
+</form>
+
+ 
+<script src="./nominas.js"></script> 
+
+</body>
+</html>
+
+<!--estructura para comentarios--> 
+<!--Para los comentarios en Mac yo usé cmd+shift+7-->
+
+
+    
